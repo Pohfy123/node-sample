@@ -4,7 +4,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   var dt = moment().format();
-  var name = process.env.MY_NAME || 'unknown';
+  var name = process.env.MY_NAME || 'Pohfy';
   res.send('Express JS says "Hello ' + name + '"!<br>' + dt);
 });
 
